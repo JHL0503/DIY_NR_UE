@@ -1,4 +1,4 @@
-#include "Rf/include/rf.h"
+#include "rf/include/rf.h"
 #include <iostream>
 
 int main(int argc, char* argv[])

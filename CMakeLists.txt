@@ -8,7 +8,7 @@ add_subdirectory(third_party/googletest)
 include_directories(third_party/googletest/googletest/include)
 
 # 하위 디렉토리 추가
-add_subdirectory(Rf)
+add_subdirectory(rf)
 
 
 # 실행 파일 생성
@@ -16,4 +16,4 @@ set(SOURCES main.cpp)
 add_executable(my_project ${SOURCES})
 
 # 하위 모듈들 링크
-target_link_libraries(my_project Rf)
+target_link_libraries(my_project rf)
