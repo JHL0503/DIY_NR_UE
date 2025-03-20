@@ -2,8 +2,11 @@
 #define ARGS_H
 
 typedef struct {
+    int freq_offset;
+    int tx_gain;
+    int rx_gain;
+    int srate;
     int nof_channels;
-    float base_srate;
 } rf_dev_args_t;
 
 typedef struct {
